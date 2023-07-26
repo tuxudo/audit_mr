@@ -36,7 +36,7 @@
 
             $('#audit_mr-table').DataTable({
                 data: data,
-                order: [[1,'asc']],
+                order: [[1,'desc']],
                 autoWidth: false,
                 columns: [
                     { data: 'username' },

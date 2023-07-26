@@ -5,8 +5,6 @@ This is an unofficial module and requires some modifications to two core MunkiRe
 
 Audits and lists login, logout, and login failures to MunkiReport. Resulting audit can be viewed in the `Login Audit` admin tab.
 
-
-
  
 File Modifications
 ---
@@ -126,6 +124,10 @@ Two files need to be edited in order for this module to be able to capture and r
 
 		error('Not authorized', 'auth.not_authorized');
 	```
+	
+Remarks
+---
+This module will likely NOT be updated for MunkiReport v6. That version of MunkiReport will use the framework's built in auditing. 
 
 Table Schema
 ---

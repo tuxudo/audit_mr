@@ -1,0 +1,4 @@
+admin_pages:
+    admin:
+        view: audit_mr_admin
+        i18n: audit_mr.audit_mr

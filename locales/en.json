@@ -1,0 +1,19 @@
+{
+    "audit_mr": "Login Audit",
+    "audit_log": "MunkiReport Login Audit",
+
+    "login": "Login",
+    "login_failed": "Login Failed",
+    "unauthorized": "Unauthorized",
+    "logout": "Logout",
+    "admin": "Admin",
+    "user": "User",
+    "manager": "Manager",
+    "archiver": "Archiver",
+
+    "timestamp": "Date and Time",
+    "ip_address": "IP Address",
+    "action": "Action",
+    "role": "Role",
+    "user_agent": "User Agent"
+}

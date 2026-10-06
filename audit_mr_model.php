@@ -43,7 +43,7 @@ class Audit_mr_model extends \Model
     public function add_audit_user($action, $username = "")
     {
         // Remove non-alphanumeric number characters
-        $username = preg_replace("/[^A-Za-z0-9_\-]]/", '', $username);
+        $username = preg_replace("/[^A-Za-z0-9_\-]/", '', $username);
 
         $this->rs['username'] = substr($username, 0, 254);
         $this->rs['ip_address'] = getRemoteAddress();
